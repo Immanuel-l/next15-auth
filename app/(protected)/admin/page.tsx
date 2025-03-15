@@ -5,8 +5,8 @@ import { RoleGate } from '@/components/auth/role-gate';
 import { FormSuccess } from '@/components/form-success';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
-import { useCurrentRole } from '@/hooks/use-current-role'; //role with client component "use client"
-import { currentRole } from '@/lib/auth'; //remove "use client" and add by const AdminPage = async and by const role = await 
+//import { useCurrentRole } from '@/hooks/use-current-role'; role with client component "use client"
+//import { currentRole } from '@/lib/auth'; remove "use client" and add by const AdminPage = async and by const role = await 
 import { UserRole } from '@prisma/client';
 import React from 'react'
 import { toast } from 'sonner';

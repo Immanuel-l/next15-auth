@@ -1,6 +1,5 @@
 "use client";
 
-import { currentUser } from '@/lib/auth';
 import { UserInfo } from '@/components/user-info';
 import React from 'react'
 import { useCurrentUser } from '@/hooks/use-current-user';
